@@ -4,6 +4,11 @@ body{
     grid-template-areas: "maparea sidepanel" /* this creates one row with map panel on the left and sidepanel on the right */
 }
 
+#contents{
+    height: 90vh;
+
+}
+
 #mapArea{
     height:92vh;
     grid-area: maparea;
